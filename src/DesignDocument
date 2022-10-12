@@ -10,7 +10,7 @@ System.out.format("%.2f%n", variable)
 
 Variables:
 int x is the variable that we get from user for a y value in return
-double y is the varible we output for the user's x value
+double y is the variable we output for the user's x value
 
 private int x1
 private int y1
@@ -29,7 +29,6 @@ Public Class LinearEquation() {
 
 }
 
-
 Methods:
 
 
@@ -47,11 +46,15 @@ displaySlope() use to display the slope with a print statement and variables
 
 displayDistance() used to display the distance between the two coordinate points given
 
+displayEquation() displays the linear equation of the two given coordinate points
+
+.substring()
+
 
 
 EquationRunner:
 
-1. declare object
+1. declare new object
 2. ask user for two coordinates
 3. parse through response and seperate x1,x2,y1,y2 variables
 3. run methods (firstCoords, secondCoords, displaySlope, displayDistance) to display the slope, equation, distance etc.
