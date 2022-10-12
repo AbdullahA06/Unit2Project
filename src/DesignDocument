@@ -1,6 +1,5 @@
 Basics:
-import java.lang.Math;
-import Scanner
+
 Get user input for two sets of x and y using Scanner statements.
 Parse out user response for x1, x2, y1, and y2 values
 Print first and second coordinate points
@@ -10,28 +9,52 @@ System.out.format("%.2f%n", variable)
 
 
 Variables:
-int x
-double y
+int x is the variable that we get from user for a y value in return
+double y is the varible we output for the user's x value
+
 private int x1
 private int y1
 private int x2
-private int y2
-double slope = (y2-y1)/(x2-x1)
-double distance = java.lang.Math.sqrt((x2-x1)^2 + (y2-y1)^2)
-double yIntercept= y1-(slope*x)
-String equation= "y= " +slope+ "x "+yIntercept
+private int y2  these are all user input variables used to calculate slope, distance, and equation
+
+String fraction = (y2-y1)+"/"+(x2-x1) supposed to return slope as a fraction
+double slope = (y2-y1)/(x2-x1) mathematical expression for slope
+double distance = java.lang.Math.sqrt((x2-x1)^2 + (y2-y1)^2) math value for distance
+double yIntercept= y1-(slope*x) double value of y when x = 0
+String equation= "y= " +slope+ "x "+yIntercept the equation written as a string
 
 Constructors:
 
-Public Class LinearEquation(x1,y1,x2,y2)
+Public Class LinearEquation() {
+
+}
 
 
 Methods:
-toString()
-use for printing out and displaying information
+
+
+firstCoords() used to display the coordinate value of the first user input
+return("("+x1+","+y1+")")
+
+secondCoords() used to display the coordinate value of the second user input
+return("("+x2+","+y2+")")
+
+finalCoords() string value with x and y in coordinate form
+y=slope*x+yIntercept
+return("("+x+","+y+")")
+
+displaySlope() use to display the slope with a print statement and variables
+
+displayDistance() used to display the distance between the two coordinate points given
+
 
 
 EquationRunner:
 
-
+1. declare object
+2. ask user for two coordinates
+3. parse through response and seperate x1,x2,y1,y2 variables
+3. run methods (firstCoords, secondCoords, displaySlope, displayDistance) to display the slope, equation, distance etc.
+4 ask user for a x value
+5 use finalCoords to calculate corresponding y value and print as a coordinate
 
