@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71e40779-9948-471e-ac88-41ad5c25c05b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EquationRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinearEquation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignDocument" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignDocument" afterDir="false" />
-    </list>
+    <list default="true" id="71e40779-9948-471e-ac88-41ad5c25c05b" name="Changes" comment="Sorry Mr.Das forgot to commit my work!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +48,21 @@
       <option name="presentableId" value="Default" />
       <updated>1666628201211</updated>
     </task>
+    <task id="LOCAL-00001" summary="Sorry Mr.Das forgot to commit my work!">
+      <created>1666660290923</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666660290923</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Sorry Mr.Das forgot to commit my work!">
+      <created>1666660421454</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666660421454</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -66,6 +75,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sorry Mr.Das forgot to commit my work!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorry Mr.Das forgot to commit my work!" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Unit2Project$EquationRunner.ic" NAME="EquationRunner Coverage Results" MODIFIED="1666645127525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

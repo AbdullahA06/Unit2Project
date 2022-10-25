@@ -9,8 +9,6 @@ System.out.format("%.2f%n", variable)
 
 
 Variables:
-int x is the variable that we get from user for a y value in return
-double y is the variable we output for the user's x value
 
 private int x1
 private int y1
