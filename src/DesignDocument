@@ -22,7 +22,7 @@ private double z used for math to make sure there isn't any integer-integer math
 Constructors:
 
 Public Class LinearEquation(int x1 y1 x2 y2) {
- used to intialize instance variables and create new objects
+ used to initialize instance variables and create new objects
 }
 
 Methods:
