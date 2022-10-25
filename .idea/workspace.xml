@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="338f6f46-c5aa-40f2-ac0a-f282dc7dd233" name="Changes" comment="Added to my code plan">
+    <list default="true" id="71e40779-9948-471e-ac88-41ad5c25c05b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/EquationRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinearEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DesignDocument" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignDocument" afterDir="false" />
     </list>
@@ -19,38 +19,41 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2FzjShfsygPw2uPJGNiP5HnO9LZ" />
+  <component name="ProjectId" id="2GaYXX6lh3FDfKSO0ayDMahBWY1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="EquationRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EquationRunner" />
+      <module name="Unit2Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EquationRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="338f6f46-c5aa-40f2-ac0a-f282dc7dd233" name="Changes" comment="" />
-      <created>1665501810327</created>
+      <changelist id="71e40779-9948-471e-ac88-41ad5c25c05b" name="Changes" comment="" />
+      <created>1666628201211</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665501810327</updated>
+      <updated>1666628201211</updated>
     </task>
-    <task id="LOCAL-00001" summary="Added to my code plan">
-      <created>1665590648581</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1665590648581</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -64,8 +67,7 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added to my code plan" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added to my code plan" />
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Unit2Project$EquationRunner.ic" NAME="EquationRunner Coverage Results" MODIFIED="1666645127525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
