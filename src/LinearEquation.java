@@ -31,19 +31,6 @@ public class LinearEquation {
         return yIntercept;
     }
 
-    //parses out the user's string input for the x or "first" value of the coordinate
-    public static int findX(String str) {
-        int begin = str.indexOf("(");
-        int middle= str.indexOf(",");
-        return Integer.parseInt(str.substring(begin+1,middle));
-    }
-
-    //parses out the user's string input for the y or "second" value of the coordinate
-    public static int findY(String coord) {
-        int end = coord.indexOf(")");
-        int middle= coord.indexOf(",");
-        return Integer.parseInt(coord.substring(middle+1,end));
-    }
     // used to do the math on the last x value the user gives
     public void finalEquation(double x) {
         double y;

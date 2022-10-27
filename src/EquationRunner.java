@@ -13,7 +13,7 @@ public class EquationRunner {
     System.out.println();
 
     // sets up the new Linear Equation object, which initializes the instance variables and allows for all the methods to run.
-    LinearEquation first= new LinearEquation(LinearEquation.findX(coord1),LinearEquation.findY(coord1),LinearEquation.findX(coord2),LinearEquation.findY(coord2));
+    LinearEquation first= new LinearEquation(findX(coord1),findY(coord1),findX(coord2),findY(coord2));
 
     //prints out and displays all the important information of the line
     System.out.println(first.toString());
@@ -31,4 +31,18 @@ public class EquationRunner {
 
 
 }
+
+    //parses out the user's string input for the x or "first" value of the coordinate
+    public static int findX(String str) {
+        int begin = str.indexOf("(");
+        int middle= str.indexOf(",");
+        return Integer.parseInt(str.substring(begin+1,middle));
+    }
+
+    //parses out the user's string input for the y or "second" value of the coordinate
+    public static int findY(String coord) {
+        int end = coord.indexOf(")");
+        int middle= coord.indexOf(",");
+        return Integer.parseInt(coord.substring(middle+1,end));
+    }
 }
