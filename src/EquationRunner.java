@@ -45,4 +45,6 @@ public class EquationRunner {
         int middle= coord.indexOf(",");
         return Integer.parseInt(coord.substring(middle+1,end));
     }
+
+
 }

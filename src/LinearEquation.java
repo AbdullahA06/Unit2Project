@@ -40,6 +40,7 @@ public class LinearEquation {
         System.out.println("Corresponding coordinate point: "+"("+x+","+y+")");
 
 
+
     }
 
 // Wasn't sure if I was allowed to just make toString print out everything or if I had to make it a return statement, so I just did both
